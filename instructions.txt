@@ -1,0 +1,32 @@
+I hope you have gone through the README.txt before coming here!!!!
+
+First thing is to create a database in phpmyadmin and import the database.sql file from the code.
+
+After importing the database you will be able to see the tables to the left of your screen.
+
+Then download PHP mailer and place that folder inside smtp folder in htdocs.(This is optional .. this has been done to send the password if user clicks forgot password!!!).
+
+
+Next thing is to run homepage.php in your browser's localhost.
+http://localhost/Php_projects/homepage.php
+
+Then it presents you with Register and Login option.
+First time user must register with their details which will be stored in the database.
+
+Then click on the Already have an account link to navigate to the login page.Then login with correct credentials.
+
+Now you will be displayed with the main homepage of the project. There you can access the various features like 
+1.Viewing the details of the vehicle (2-wheeler/4-wheeler) by just entering the name of the vehicle.
+2.After entering the name you will be displayed with the Vehicle Name,	Vehicle Type,	Vehicle Cost,	Vehicle Model,	Manufacture date and even Image of the vehicle will be displayed.
+3.You have an option to buy that vehicle by clicking the buynow button. (!<-- this is done only for understanding purposes,obviously it does mean real purchasing of vehice FYI BTW :).-->)
+
+All these are customers perspective of Vehicle Management System.
+We also have ADMIN's perspective too.
+
+In admin's view there are more features which can be accessed, like 
+1> He can view the details of the customers who have purchased the vehicle.
+2> He can also view who all have contacted him.
+3> He also has the access to add new vehicles into the database, edit the old records, delete some vehicles etc.
+(This feature of the admin is done in order to showcase the PHP CRUD operation which stands for Create, Read ,Update and Delete operations.)
+4> Admin login details are        USERNAME :admin 
+                                  PASSWORD:admin
