@@ -1,0 +1,34 @@
+body{
+  background-image: url("test drive.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #d7d8d6;
+  }
+
+  .container3{
+  color: white;
+  width:500px;
+  margin: 30px;
+  padding: 15px;
+  background-color: #0b4c54;
+  position: absolute;
+
+  top: 70%;
+  left: 30%;
+  text-align: center;
+
+}
+#btn{
+  border: 3px solid #d7d8d6;
+  border-radius: 10px;
+  width: 80px;
+  height: 30px;
+}
+#btn:hover{
+  cursor: pointer;
+  background-color: white;
+}
+.img{
+  width: 100%;
+  background-size: cover;
+}

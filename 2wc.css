@@ -1,0 +1,60 @@
+body {
+    font-size: 19px;
+}
+table{
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr {
+    border-bottom: 2px solid #cbcbcb;
+}
+th, td{
+    border: 2px solid grey;
+    height: 30px;
+    padding: 2px;
+}
+tr:hover {
+    background: #F5F5F5;
+}
+.form
+{
+  background-color: #ded7da;
+  width: 45%;
+  margin: 50px auto;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.textbox
+{
+  margin: 10px 0px 10px 0px;
+  width: 400px;
+  padding-left: 30px;
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 6px;
+
+}
+ input[type = "submit"]:hover{
+    background: #2ecc71;
+    cursor: pointer;
+}
+h1
+{
+  font-family: monospace;
+}

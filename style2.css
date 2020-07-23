@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century Gothic;
+    
+}
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+    font-size: 25px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 7px ;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 5px 0px;
+    width: 140px;
+    outline: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.25s;
+
+}
+
+.logo img{
+    float:left;
+    width: 120px;
+    height: auto;
+    padding: 10px 10px;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: black;
+    font-size: 50px;
+}
+
+#reg {
+    width: 100px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    transition: 0.6s ease;
+    position: absolute;
+    top: 65%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+
+}
+
+#reg:hover{
+    background-color: white;
+    color:black;
+}
+
+#login {
+    width: 100px;
+    padding: 10px ;
+    text-decoration: none;
+    color:black;
+    transition: 0.6s ease;
+    position: absolute;
+    font-size: 30px;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+#login:hover{
+    background-color: white;
+    color:black;
+}
+
+.btn a{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}

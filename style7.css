@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: aqua;
+}
+.details{
+  display: block;
+  margin: 20px;
+  padding:20px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.details1{
+  display: inline-block;
+  margin: 20px;
+  padding:20px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.add{
+  font-size: 20px;
+  margin: 20px;
+}
+
+.bill
+{
+  margin: 20px;
+  padding: 20px;
+
+}

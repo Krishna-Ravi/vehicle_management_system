@@ -1,0 +1,107 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+
+  font-family: sans-serif;
+  background-color: #ebeded;
+}
+
+.menubar
+{
+  background: rgb(0, 100, 0);
+  text-align: center;
+}
+.menubar ul
+{
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.menubar ul li
+{
+  width: 120px;
+  margin:3px;
+  padding: 10px;
+}
+
+.menubar ul li a
+{
+  text-decoration: none;
+  color: white;
+
+}
+.active,.menubar ul li:hover{
+  background: #2bab0d;
+  border-radius: 12px;
+}
+.menubar .fa
+{
+  margin-right: 8px;
+
+}
+.submenu1
+{
+  display: none;
+}
+.menubar ul li:hover .submenu1
+{
+  display:block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top: 12px;
+  margin-left: 15px;
+}
+.menubar ul li:hover .submenu1 ul
+{
+  display: block;
+  margin: 10px;
+}
+.menubar ul li:hover .submenu1 ul li
+{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transperant;
+  border-radius: 20px;
+  text-align: left;
+}
+.menubar ul li:hover .submenu1 ul li:last-child
+{
+  border-bottom: none;
+}
+.menubar ul li:hover .submenu1 ul li a:hover{
+  color: #b2ff00;
+}
+.name
+{
+  align-content: bottom;
+  margin: 100px;
+
+}
+
+@keyframes fade
+{
+  0%   {opacity:1}
+  33.333% { opacity: 0}
+  66.666% { opacity: 0}
+  100% { opacity: 1}
+}
+@keyframes fade2
+{
+  0%   {opacity:0}
+  33.333% { opacity: 1}
+  66.666% { opacity: 0 }
+  100% { opacity: 0}
+}
+@keyframes fade3
+{
+  0%   {opacity:0}
+  33.333% { opacity: 0}
+  66.666% { opacity: 1}
+  100% { opacity: 0}
+}
