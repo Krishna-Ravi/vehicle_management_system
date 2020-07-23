@@ -13,7 +13,7 @@ Any Windows/Mac/Linux distributions
 
 2.Unzip the downloaded file.
 
-3.Open the resources folder and open the codes in any editor or an IDE.
+3.Open the folder and open the codes in any editor or an IDE.
 
 4.Save the folder in directory where xampp is installed. Place this folder inside htdocs folder (which will be present in the xampp folder usually located in C:\ drive).
 
