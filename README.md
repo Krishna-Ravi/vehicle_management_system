@@ -1,6 +1,8 @@
 # Vehicle_Management_System
 This repository contains my DBMS Mini Project which was carried out on Vehicle Management System. In this particular mini project I've used HTML,CSS,PHP,Javascript and Mysql. 
 
+You can check out the " screenshots " folder for the images of the UI / project.
+
 # REQUIREMENTS
 Xampp server. (You need to initialize the Apache & Mysql Modules in xampp)
 
